@@ -71,21 +71,21 @@ end
 #   if board.empty?
 #     return false
 #   end
-#   
+#
 # WIN_COMBINATIONS.each do |combo|
 #   win_pos = combo[i]
 #   local_win_combination_X = []
 #   local_win_combination_O = []
-# 
+#
 # board.each_with_index do |pos|idx|
 # if pos == "X" && idx == win_pos[i]
 #   local_win_combination_X << win_pos[i]
-# 
+#
 # elsif pos == "O" && idx = win_pos[i]
 #   local_win_combination_O  << win_pos[i]
 #   end
 #  end
-# 
+#
 # if combo == local_win_combination_X
 #   puts "X won"
 #   return local_win_combination_X
@@ -95,6 +95,6 @@ end
 # else
 #   puts "tie"
 # end
-# 
+#
 #  end
 # end
